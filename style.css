@@ -4,7 +4,44 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'TeX Gyre Adventor';
+    src: url(TexgyreadventorBold-90Wn.otf);
+}
+
 .container{
     width: 300px;
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 11px;
+    overflow: hidden;
+}
+
+.bar {
+    width: 35px;
+    height: 100px;
+    background-color: #121212;
+    transform: rotate(-30deg) translateY(30px);
+    
+
+}
+.bar--small {
+    height: 52px;
+}
+
+.bar--middle {
+    height: 85px;
+}
+
+.bar--bigger {
+    height: 120px;
+}
+
+
+h1{
+    font-family: 'TeX Gyre Adventor';
+    font-size: 4rem;
+    margin: -28px 70px;
+    letter-spacing: -1px;
 }
