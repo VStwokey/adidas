@@ -1,3 +1,1 @@
-# adidas
-
-Recriei o logo da adidas em HTML e CSS.
+# Recriei o logo da adidas em HTML e CSS.
